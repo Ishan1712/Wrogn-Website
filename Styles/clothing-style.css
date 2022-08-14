@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100%;
+}
+.container {
+    height: 115%;
+    position: relative;
+    background: url("/products/Images/Black-Abstract-HD-Wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: yellowgreen; */
+    width: 60%;
+    padding-right: 450px;
+}
+
+header .logo {
+    margin-right: 10px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    /* background-color: antiquewhite; */
+}
+
+header ul li a {
+    font-size: 20px;
+    padding: 8px 20px;
+    margin: 0 6px;
+    color: white;
+}
+
+header ul li a:hover {
+    color: rgb(227, 28, 37);
+}
+
+header .logo img {
+    width: 60px;
+    height: 100px;
+    width: 300px;
+}
+.products{
+    height: 800px;
+}
+.products h1{
+    color: rgb(227, 28, 37);
+    align-items: center;
+    margin: 20px 570px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.T-Shirts{
+    margin: 12px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one{
+    flex-direction: column;
+    border: 2px solid white;
+    height: 300px;
+    width: 300px;
+    margin: 0 25px;
+
+}
+.two{
+    flex-direction: column;
+    border: 2px solid white;
+    height: 300px;
+    width: 300px;
+    margin: 0 25px;
+}
+.three{
+    flex-direction: column;
+    border: 2px solid white;
+    height: 300px;
+    width: 300px;
+    margin: 0 25px;
+}
+.Shirts{
+    margin: 25px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.S-one{
+    flex-direction: column;
+    border: 2px solid white;
+    height: 300px;
+    width: 300px;
+    margin: 0 25px;
+}
+.S-two{
+    flex-direction: column;
+    border: 2px solid white;
+    height: 300px;
+    margin: 0 25px;
+    width: 300px;
+}
+.S-three{
+    flex-direction: column;
+    border: 2px solid white;
+    height: 300px;
+    width: 300px;
+    margin: 0 25px;
+}
+.image{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.image img{
+    margin: 12px 4px;
+    height: 200px;
+    width: 200px;
+    
+}
+.para{
+    color: white;
+    text-align: center;
+    margin: 5px 0;
+}

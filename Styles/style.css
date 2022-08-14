@@ -1,0 +1,190 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+
+    top: 0px;
+}
+
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 14px;
+}
+
+#logo img{
+    height: 39px;
+    margin: 3px 6px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Merriweather', serif;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 3px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: red;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+ 
+}
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('/img/background2.jpg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+#home h1{
+    color:white;
+    /* font-family: 'Merriweather', serif; */
+    margin: 45px 25px;
+    font-size: 3.2rem;
+    font-weight: bold;
+    width: 750px;
+    /* border: 2px solid red; */
+    color: black;
+    padding: 25px;
+}
+
+
+.btn{
+    border: 2px solid black;
+    margin: 0px 75px;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: rgb(243, 235, 221);
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn:hover{
+    background-color: red;
+}
+/* Clients Section */
+#client-section{ 
+    position: relative;
+}
+
+#client-section::before{
+ content: "";
+ position: absolute;
+ background: url(/img/w.webp);
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ /* opacity: 0.3; */
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 34px;
+}
+
+#clients img{
+    height: 124px;
+}
+
+
+/* Contact Section */
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background: url(/img/1000_F_206925823_SgmybBfJWW2pnWvywT0QGOZBfGpkUg2m.jpg) no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+.h-primary{
+    font-size:2.3rem;
+}
+
+.center{
+    text-align: center;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
